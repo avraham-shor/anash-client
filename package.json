@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "description": "Here you can get all the names and details in the Anash list by name or by one of the phone numbers.",
-  "homepage": "https://github.com/avraham-shor/anash#readme",
+  "homepage": "https://github.com/avraham-shor/anash-client#readme",
   "bugs": {
-    "url": "https://github.com/avraham-shor/anash/issues"
+    "url": "https://github.com/avraham-shor/anash-client/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/avraham-shor/anash.git"
+    "url": "git+ssh://git@github.com/avraham-shor/anash-client.git"
   },
   "license": "ISC",
   "author": "Avraham Shor <ayshor123@gmail.com>",
