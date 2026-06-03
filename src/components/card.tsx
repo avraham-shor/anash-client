@@ -38,8 +38,8 @@ export function Card({ item, isAdmin }: Props) {
                 {item.whatsapp_number && <span> 💬 מספר וואטסאפ: {item.whatsapp_number}</span>}
             </p>}
             {(item.father_name || item.wife_name) && <p>
-                {item.father_name && <span> 👨 שם האב: {item.father_name} </span>}
-                {item.wife_name && <span> 👩 שם האשה: {item.wife_name}</span>}
+                {item.father_name && <p>  שם האב: {item.father_name} </p>}
+                {item.wife_name && <p>  שם האשה: {item.wife_name}</p>}
             </p>}
             {item.is_groom_of_rabbi && <p> 🎩 חתן של הרב: {item.is_groom_of_rabbi}</p>}
             {(isAdmin && (item.id_number || item.wife_id_number)) && <p>
